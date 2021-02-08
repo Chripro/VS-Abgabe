@@ -5,7 +5,7 @@ client: React Frontend
 
 server: Go mit Mux Router als Backend und MongoDB Datenbank in Amazon Cloud (normalerweise)
 
-NGINX Einstellungen für Lastenverteilung:
+NGINX Einstellungen für Lastenverteilung (round robin):
 in default.config:
 
 upstream www {
